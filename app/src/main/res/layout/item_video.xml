@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical"
+              android:orientation="horizontal">
+    <!--图标-->
+    <ImageView
+        android:src="@drawable/video_default_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--标题时间-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/video_item_name"
+            android:text="opp-2"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/video_item_duration"
+            android:textColor="@color/halfwhite"
+            android:textSize="18sp"
+            android:text="30:00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <!--大小-->
+    <TextView
+        android:id="@+id/video_item_size"
+        android:text="4.35M"
+        android:textSize="18sp"
+        android:textColor="@color/halfwhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
